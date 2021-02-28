@@ -1,34 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>
+    <img src="./docs/logo.png">
+    Move It
+</h1>
 
-## Getting Started
+<h1 align="center">
+    <img src="./docs/running.gif" alt="App">
+</h1>
 
-First, run the development server:
+[![LEIAME.md](https://img.shields.io/badge/-Leia%20em%20Portugu%C3%AAs-brightgreen?style=for-the-badge)](./LEIAME.md)
+
+## Summary
+
+* [About](#-about)
+* [Technologies](#-technologies)
+* [How to download the project](#-how-to-download-the-project)
+* [How to run the project](#-how-to-run-the-project)
+* [How to use the app](#-how-to-use-the-app)
+<br>
+
+## 🧾 About
+
+A [Pomodoro](https://pomofocus.io/) app for developers.
+<br>
+
+## 🚀 Technologies
+
+* [js-cookie](https://www.npmjs.com/package/js-cookie)
+* [next](https://nextjs.org/)
+* [react](https://reactjs.org/)
+* [react-dom](https://www.npmjs.com/package/react-dom)
+* [@types/js-cookie](https://www.npmjs.com/package/@types/js-cookie)
+* [@types/node](https://www.npmjs.com/package/@types/node)
+* [@types/react](https://www.npmjs.com/package/@types/react)
+* [@types/react-dom](https://www.npmjs.com/package/@types/react-dom)
+* [typescript](https://www.typescriptlang.org/)
+<br>
+
+## 🔽 How to download the project
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/victorbadaro/moveit-next
+```
+<br>
+
+## 💻 How to run the project
+
+The commands below use the [yarn](https://yarnpkg.com/) package manager.
+
+```bash
+# 1. Install all the project dependencies
+$ yarn
+
+# 2. Run the app
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If everything runs correctly, the following message will be displayed on your terminal:
+```bash
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled successfully
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+After that open your browser and access: http://localhost:3000
+<br>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 👌 How to use the app
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+* Click in **_Iniciar um ciclo_** to start
+    <img src="./docs/before_start_countdown.png" alt="Start a cycle">
 
-## Learn More
+* A 25-minute countdown will start
+    <img src="./docs/after_start_countdown.png" alt="Cycle started">
 
-To learn more about Next.js, take a look at the following resources:
+* You can left a cycle by clicking in **_Abandonar ciclo_**
+    <img src="./docs/abandonar_ciclo_button.png" alt="Left cycle">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* After the cycle is ended (after the 25-minute countdown ends) a **new challenge** will be shown on the screen with some buttons to you inform if you completed or not that challenge
+    <img src="./docs/new_challenge.png" alt="New challenge">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+* By clicking in **_Completei_** the experience of that completed challenge will be accounted for the user experience
+    <img src="./docs/getting_experience.png" alt="Completing the challenge">
 
-## Deploy on Vercel
+* By completing the necessary experience (indicated on the **Experience Bar** at the top of the page) the user will level up and a message will be shown on the screen
+    <img src="./docs/level_up.png" alt="Level Up">
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<br>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+✅ Nice! If you followed all the steps above correctly the project will be running locally on your machine already.
+<br>
+
+---
+<p align="center">Developed with ❤ by <a href="https://github.com/victorbadaro">Victor Badaró</a></p>
