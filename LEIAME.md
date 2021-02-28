@@ -62,6 +62,8 @@ event - compiled successfully
 ```
 
 Agora basta abrir o navegador e acessar: http://localhost:3000
+
+✅ Pronto! Se você seguiu corretamente os passos acima o projejto já estará sendo executado localmente em tua máquina.
 <br>
 
 ## 👌 Como usar o app
@@ -84,9 +86,6 @@ Agora basta abrir o navegador e acessar: http://localhost:3000
 * Completando a quantidade de experiencia necessária (indicada na **Experience Bar** no topo da página) o usuário irá subir de nível e uma mensagem será apresentada na tela
     <img src="./docs/level_up.png" alt="Level Up">
 
-<br>
-
-✅ Pronto! Se você seguiu corretamente os passos acima o projejto já estará sendo executado localmente em tua máquina.
 <br>
 
 ---

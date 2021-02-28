@@ -62,6 +62,8 @@ event - compiled successfully
 ```
 
 After that open your browser and access: http://localhost:3000
+
+✅ Nice! If you followed all the steps above correctly the project will be running locally on your machine already.
 <br>
 
 ## 👌 How to use the app
@@ -84,9 +86,6 @@ After that open your browser and access: http://localhost:3000
 * By completing the necessary experience (indicated on the **Experience Bar** at the top of the page) the user will level up and a message will be shown on the screen
     <img src="./docs/level_up.png" alt="Level Up">
 
-<br>
-
-✅ Nice! If you followed all the steps above correctly the project will be running locally on your machine already.
 <br>
 
 ---
