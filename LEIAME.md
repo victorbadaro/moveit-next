@@ -18,7 +18,7 @@
 * [Como usar o app](#-como-usar-o-app)
 <br>
 
-## 🧾 Sobre
+## 🧾 Sobre o projeto
 
 Aplicação, no estilo [Pomodoro](https://pomofocus.io/), para desenvolvedores.
 <br>
